@@ -19,7 +19,7 @@ Module allows to convert document from Docx and MD format into html or markdown 
 
 Module uses **Pandoc** application to perform conversion. It contains zipped version of the Pandoc and first step before running the script is to validate if archive is extracted.
 
-![PandocExtraction](images\PandocExtraction.png)
+![PandocExtraction](images/PandocExtraction.png)
 
 ## Methods
 - ConvertFrom-Docx - allows to convert documents to **Html** and **Markdown**
@@ -36,5 +36,6 @@ Module uses **Pandoc** application to perform conversion. It contains zipped ver
 ```powershell
 ConvertFrom-Markdown -verbose -Path "README.md" -TargetFormat Html -OutputDirectory D:\Trash\ArticlesHTML\MD
 ```
+
 <!--ogimage-->
-![PandocExtraction](images\Example.png)
+![PandocExtraction](images/Example.png)
