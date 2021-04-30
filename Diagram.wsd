@@ -1,0 +1,12 @@
+@startuml
+title Pandoc extraction
+
+start 
+if(Pandoc\pandoc.exe exists) then (yes)
+else (no)
+: Extract pandoc.exe;
+endif
+: Process File;
+stop
+
+@enduml
