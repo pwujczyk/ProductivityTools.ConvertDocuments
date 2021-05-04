@@ -34,7 +34,7 @@ Module uses **Pandoc** application to perform conversion. It contains zipped ver
 - ExtractImages - if used images will be extracted from the document to files
 
 ```powershell
-ConvertFrom-Markdown -verbose -Path "README.md" -TargetFormat Html -OutputDirectory D:\Trash\ArticlesHTML\MD
+ConvertFrom-Markdown -Verbose -Path "README.md" -TargetFormat Html -OutputDirectory D:\Trash\ArticlesHTML\MD
 ```
 
 <!--ogimage-->
