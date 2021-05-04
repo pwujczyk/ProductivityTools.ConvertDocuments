@@ -32,10 +32,7 @@
     <Compile Include="Runner.ps1" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Pandoc\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Pandoc\pandoc.exe" />
+    <Content Include="Pandoc.zip" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />

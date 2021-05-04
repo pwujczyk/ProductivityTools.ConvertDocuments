@@ -1,8 +1,8 @@
 <!--Category:PowerShell--> 
  <p align="right">
-    <a href="https://www.powershellgallery.com/packages/ProductivityTools.PSGetOneDriveDirectory/"><img src="Images/Header/Powershell_border_40px.png" /></a>
-    <a href="http://productivitytools.tech/get-onedrivedirectory/"><img src="Images/Header/ProductivityTools_green_40px_2.png" /><a> 
-    <a href="https://github.com/pwujczyk/ProductivityTools.PSGetOneDriveDirectory"><img src="Images/Header/Github_border_40px.png" /></a>
+    <a href="https://www.powershellgallery.com/packages/ProductivityTools.ConvertDocuments/"><img src="Images/Header/Powershell_border_40px.png" /></a>
+    <a href="http://productivitytools.tech/convert-documents/"><img src="Images/Header/ProductivityTools_green_40px_2.png" /><a> 
+    <a href="https://github.com/pwujczyk/ProductivityTools.ConvertDocuments/"><img src="Images/Header/Github_border_40px.png" /></a>
 </p>
 <p align="center">
     <a href="http://http://productivitytools.tech/">
@@ -17,7 +17,7 @@ Module allows to convert document from Docx and MD format into html or markdown 
 
 <!--more-->
 
-Module uses **Pandoc** application to perform conversion. It contains zipped version of the Pandoc and first step before running the script is to validate if archive is extracted.
+Module uses **Pandoc** application to perform conversion. It contains zipped version of the **Pandoc** and first step before running the script is to validate if archive is extracted.
 
 ![PandocExtraction](Images/PandocExtraction.png)
 
