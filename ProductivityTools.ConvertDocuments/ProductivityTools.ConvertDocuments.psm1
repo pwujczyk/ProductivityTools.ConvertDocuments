@@ -39,6 +39,7 @@ function ConvertFrom{
 		[switch]$ExtractImages
 	)
 	
+	ValidatePandocExecutable
 
 	Write-Verbose "Path to docx document: $Path"
 	Write-Verbose "Chosen target format $TargetFormat"
@@ -130,7 +131,7 @@ function ConvertFrom-Docx {
 		
 		[switch]$ExtractImages
 	)
-	ValidatePandocExecutable
+	
 
 	Write-Verbose "Hello from ConvertFrom-Docx"
 	ConvertFrom $Path $TargetFormat $OutputDirectory $OutputFileName "Docx"  -ExtractImages:$ExtractImages
