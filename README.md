@@ -37,5 +37,7 @@ Module uses **Pandoc** application to perform conversion. It contains zipped ver
 ConvertFrom-Markdown -Verbose -Path "README.md" -TargetFormat Html -OutputDirectory D:\Trash\ArticlesHTML\MD
 ```
 
-<!--ogimage-->
+<!--og-image-->
 ![PandocExtraction](Images/Example.png)
+
+
