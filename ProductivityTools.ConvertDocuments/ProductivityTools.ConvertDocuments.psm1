@@ -96,7 +96,7 @@ function ConvertFrom{
 }
 
 
-function ConvertFrom-Markdown{
+function ConvertFrom-MarkdownPandoc {
 	[cmdletbinding()]
 	param(
 		[Parameter(Mandatory=$true)]
@@ -116,7 +116,7 @@ function ConvertFrom-Markdown{
 	ConvertFrom $Path $TargetFormat $OutputDirectory $OutputFileName "Markdown" -ExtractImages:$ExtractImages
 }
 
-function ConvertFrom-Docx {
+function ConvertFrom-DocxPandoc {
 	[cmdletbinding()]
 	param(
 		[Parameter(Mandatory=$true)]
@@ -137,5 +137,5 @@ function ConvertFrom-Docx {
 	ConvertFrom $Path $TargetFormat $OutputDirectory $OutputFileName "Docx"  -ExtractImages:$ExtractImages
 }
 
-Export-ModuleMember ConvertFrom-Docx
-Export-ModuleMember ConvertFrom-Markdown
+Export-ModuleMember ConvertFrom-DocxPandoc 
+Export-ModuleMember ConvertFrom-MarkdownPandoc 
