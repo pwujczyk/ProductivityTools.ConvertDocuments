@@ -22,8 +22,8 @@ Module uses **Pandoc** application to perform conversion. It contains zipped ver
 ![PandocExtraction](Images/PandocExtraction.png)
 
 ## Methods
-- ConvertFrom-Docx - allows to convert documents to **Html** and **Markdown**
-- ConvertFrom-Markdown - allows to convert documents to **Html** and **Docx**
+- ConvertFrom-DocxPandoc - allows to convert documents to **Html** and **Markdown**
+- ConvertFrom-MarkdownPandoc - allows to convert documents to **Html** and **Docx**
 
 ## Parameters
 
@@ -34,7 +34,7 @@ Module uses **Pandoc** application to perform conversion. It contains zipped ver
 - ExtractImages - if used images will be extracted from the document to files
 
 ```powershell
-ConvertFrom-Markdown -Verbose -Path "README.md" -TargetFormat Html -OutputDirectory D:\Trash\ArticlesHTML\MD
+ConvertFrom-MarkdownPandoc -Verbose -Path "README.md" -TargetFormat Html -OutputDirectory D:\Trash\ArticlesHTML\MD
 ```
 
 <!--og-image-->
