@@ -15,7 +15,7 @@
 
 ## Module is depreciated
 
-> I found module [**ConvertFrom-Markdown**](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-markdown?view=powershell-7.2) from Microsoft Powershell Utility. I engourage everyone to use it. 
+> I found module [**ConvertFrom-Markdown**](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-markdown?view=powershell-7.2) from Microsoft Powershell Utility. I encourage everyone to use it. 
 
 > I will stop update this module, as Microsoft module generates nicer html.
 
