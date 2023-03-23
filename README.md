@@ -13,17 +13,17 @@
    
 # Convert Documents
 
-## Module is depreciated
+Module is depreciated
 
-> I found module [**ConvertFrom-Markdown**](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-markdown?view=powershell-7.2) from Microsoft Powershell Utility. I encourage everyone to use it. 
+I found module [**ConvertFrom-Markdown**](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-markdown?view=powershell-7.2) from Microsoft Powershell Utility. I encourage everyone to use it. 
 
-> I will stop update this module, as Microsoft module generates nicer html.
-
+I will stop update this module, as Microsoft module generates nicer html.
+<!--more-->
 
 ### Pandoc html
 ```html
 <p>Library generates connection string from params.</p>
-<!--more-->
+
 <p>It exposes two methods</p>
 <ul>
 <li>GetSqlDataSourceConnectionString - creates connection string to server</li>
