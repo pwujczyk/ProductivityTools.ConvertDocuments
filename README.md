@@ -28,13 +28,20 @@ I will stop update this module, as Microsoft module generates nicer html.
 <ul>
 <li>GetSqlDataSourceConnectionString - creates connection string to server</li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode c#"><code class="sourceCode cs"><span id="cb1-1"><a href="#cb1-1"></a><span class="dt">var</span> x=ConnectionStringLight.<span class="fu">GetSqlDataSourceConnectionString</span>(<span class="st">&quot;.&quot;</span>);</span>
-<span id="cb1-2"><a href="#cb1-2"></a>Assert.<span class="fu">AreEqual</span>(x, <span class="st">&quot;Data Source=.;Integrated Security=True&quot;</span>);</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode c#"><code class="sourceCode cs"><span id="cb1-1"><a href="#cb1-1"></a>
+<span class="dt">var</span> x=ConnectionStringLight.<span class="fu">GetSqlDataSourceConnectionString</span>
+(<span class="st">&quot;.&quot;</span>);</span>
+<span id="cb1-2"><a href="#cb1-2"></a>Assert.<span class="fu">AreEqual</span>(x, <span class="st">
+&quot;Data Source=.;Integrated Security=True&quot;</span>);</span></code></pre></div>
 <ul>
 <li>GetSqlServerConnectionString - creates connection string to database on the server</li>
 </ul>
-<div class="sourceCode" id="cb2"><pre class="sourceCode c#"><code class="sourceCode cs"><span id="cb2-1"><a href="#cb2-1"></a><span class="dt">var</span> y = ConnectionStringLight.<span class="fu">GetSqlServerConnectionString</span>(<span class="st">&quot;.&quot;</span>, <span class="st">&quot;dbName&quot;</span>);</span>
-<span id="cb2-2"><a href="#cb2-2"></a>Assert.<span class="fu">AreEqual</span>(y, <span class="st">&quot;Data Source=.;Initial Catalog=dbName;Integrated Security=True&quot;</span>);</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode c#"><code class="sourceCode cs"><span id="cb2-1">
+<a href="#cb2-1"></a><span class="dt">var</span> y = ConnectionStringLight.<span class="fu">GetSqlServerConnectionString
+</span>(<span class="st">&quot;.&quot;</span>, <span class="st">&quot;dbName&quot;</span>);</span>
+<span id="cb2-2"><a href="#cb2-2"></a>Assert.<span class="fu">AreEqual</span>(y, 
+<span class="st">&quot;Data Source=.;Initial Catalog=dbName;Integrated Security=True&quot;
+</span>);</span></code></pre></div>
 ```
 
 ### Microsoft html
